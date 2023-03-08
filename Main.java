@@ -1,11 +1,13 @@
 import java.util.Arrays;
 
 //Examen de Entornos de Desarrollo
+//Programa que elimina los números repetidos
+
 public class Main {
 	public static int[] removeDuplicates(int[] arr) {
 		Arrays.sort(arr);
-		int k = 1;
-		for (int i = 1; i < arr.length; i++) {
+		int k = 0;
+		for (int i = 1; i < arr.length; k++) {
 			if (i == 1 || arr[i] != arr[i - 1]) {
 				arr[i++] = arr[i];
 			}
