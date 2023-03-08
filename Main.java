@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+//Examen de Entornos de Desarrollo
 public class Main {
 	public static int[] removeDuplicates(int[] arr) {
 		Arrays.sort(arr);
